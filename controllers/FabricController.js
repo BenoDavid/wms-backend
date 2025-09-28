@@ -50,7 +50,7 @@ class FabricController extends BaseController {
           }
         ],
         order: sortOptions,
-        ...paginationOptions
+        // ...paginationOptions
       });
 
       // Respond with paginated data and metadata
